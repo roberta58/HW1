@@ -1,0 +1,77 @@
+body{
+    background-color: aliceblue;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    height: 150 px;
+    background-color: darkgray;
+    color:crimson;
+    text-align: center;
+    justify-content: center;
+    font-size: medium;
+    font-style:italic;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+nav{ 
+    display: flex;
+    height: 30px;
+    background-color: rgb(48, 48, 48);
+    justify-content: space-evenly;
+    text-align: center;
+    font-style: oblique;
+    font-size: medium;
+    font-family:'Karla', sans-serif;
+}
+a{
+    font-family: 'Karla', sans-serif;
+    color: white;   
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 20px;
+    font-size: 20px;
+}
+a.button{
+    padding: 5px 12px;
+    border-radius: 12px;
+}
+a.button:hover{
+    background-color: white;
+    color: black;
+}
+#opzioni{
+    font-family: 'Karla', sans-serif;
+    font-style: italic;
+    text-transform:capitalize;
+} 
+#cont{
+    font-size: 0.8em;
+    text-align: center;
+	text-decoration: none;
+    margin:auto;
+    width: fit-content;
+    
+}
+#eventi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+#eventi div{
+    margin: 3px;
+    background-color: darksalmon;
+    border: 20px;
+}
+#eventi a{
+    font-family: 'Karla', sans-serif;
+    color: black;  
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 20px;
+    font-size: 20px;
+}
+form {
+    border-radius: 5px;
+}
